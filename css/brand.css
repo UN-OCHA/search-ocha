@@ -54,16 +54,6 @@
    */
   --cd-footer-row-number: 5;
 
-  /* From https://brand.unocha.org/d/xEPytAUjC3sH/visual-identity#/basics/colours */
-  --cd-red: #cd3a1f;
-  --cd-red--light: #f8d8d3;
-  --cd-orange: #db7b18;
-  --cd-orange--light: #fae6d1;
-  --cd-yellow: #d5de26;
-  --cd-yellow--light: #f7f8d3;
-  --cd-green: #7fb92f;
-  --cd-green--light: #e8f5d6;
-
   /* Fonts sizes in REMs */
   --cd-font-size--tiny: 0.75rem;
   /* 12px */
@@ -82,25 +72,11 @@
   --cd-font-size--2xlarge: 2.875rem;
   /* 46px */
 
-  /* Fonts */
-  --cd-font: helvetica, arial, sans-serif;
-  --cd-font--system: system-ui;
-
   /**
    * Roboto
    * https://brand.unocha.org/d/xEPytAUjC3sH/visual-identity#/basics/fonts/advanced-users
    */
   --cd-font--roboto: "Roboto", helvetica, arial, sans-serif;
-  --cd-font--roboto-condensed: "Roboto Condensed", helvetica, arial, sans-serif;
-  --cd-font--roboto-slab: "Roboto Slab", helvetica, arial, sans-serif;
-
-  /**
-   * Multilingual
-   * https://brand.unocha.org/d/xEPytAUjC3sH/visual-identity#/basics/fonts/multi-language-typefaces-1
-   */
-  --cd-font--noto-sans: "Noto Sans", sans-serif;
-  --cd-font--noto-kufi-arabic: "Noto Kufi Arabic", sans-serif;
-  --cd-font--noto-sans-sc: "Noto Sans SC", sans-serif;
 
   /**
    * Site-specific brand defaults

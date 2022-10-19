@@ -54,14 +54,11 @@
 }
 
 .gs-webResult:not(.gs-no-results-result):not(.gs-error-result) .gs-snippet,
-.gs-fileFormatType {
+.gs-fileFormatType,
+.gsc-result-info {
   color: var(--cd-grey--dark) !important;
 }
 
 .gs-webResult div.gs-visibleUrl {
   color: var(--cd-ocha-blue) !important;
-}
-
-.gsc-result-info {
-  color: var(--cd-grey--dark) !important;
 }
