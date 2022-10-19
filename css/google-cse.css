@@ -6,30 +6,11 @@
  * we can override them.
  */
 
-/* div#___gcse_0 {
-  position: relative;
-  max-height: var(--cd-site-header-height);
-} */
-
-.gsc-adBlock {
-  display: none !important;
-}
-
 .gsc-control-cse {
   padding: 0 !important;
   border: none !important;
   background-color: transparent !important;
-}
-
-form.gsc-search-box {
-  margin-bottom: 0 !important;
-}
-
-@media screen and (min-width: 1200px) {
-  form.gsc-search-box {
-    margin-right: auto !important;
-    margin-left: auto !important;
-  }
+  margin-top: 1rem;
 }
 
 .gsib_a {
@@ -45,11 +26,6 @@ form.gsc-search-box {
 .gsc-input {
   padding-right: 0 !important;
   background-image: none !important;
-}
-
-/* override CD Table default margin */
-.gsc-input table {
-  margin-bottom: 0;
 }
 
 .gsc-search-button {
@@ -68,21 +44,21 @@ form.gsc-search-box {
   background-color: var(--brand-secondary) !important;
 }
 
-.gsc-above-wrapper-area,
-.gsc-wrapper {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
-/* .gsc-results-wrapper-visible {
-  position: relative;
-  top: -4px;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid var(--brand-primary--light);
-  background: #fff;
-  box-shadow: 0 3px 8px #0002;
-} */
-
 .gs-webResult.gs-result a.gs-title:link {
   color: var(--brand-primary--dark) !important;
+}
+
+.gs-web-image-box,
+.gs-promotion-image-box {
+  margin-right: 0.5rem !important;
+}
+
+.gs-webResult:not(.gs-no-results-result):not(.gs-error-result) .gs-snippet,
+.gs-fileFormatType,
+.gsc-result-info {
+  color: var(--cd-grey--dark) !important;
+}
+
+.gs-webResult div.gs-visibleUrl {
+  color: var(--cd-ocha-blue) !important;
 }
