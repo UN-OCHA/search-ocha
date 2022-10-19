@@ -1,0 +1,12 @@
+/**
+ * CD Typography
+ */
+
+.cd-max-width {
+  max-width: var(--cd-max-content-width);
+}
+
+.cd-max-width--center {
+  margin-right: auto;
+  margin-left: auto;
+}
